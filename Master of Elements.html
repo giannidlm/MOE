@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title>MASTERS OF THE ELEMENTS</title>
+<link rel="stylesheet" href="./styles.css">
+<meta name="viewport" content= "width=device-width, initial-scale= 1.0">
+</head>
+<body>
+
+   <section id="SeleccionarAvatar">
+
+   <h1 class="titulo">⚔️MASTERS OF THE ELEMENTS⚔️ </h1>
+   
+   <h3 class="elementos">Earth🪨 Wind💨 Fire🔥 Water🌊
+
+      The battle of "PARLAX"
+   </h3>
+ 
+   <h2 class="selector"> Selecciona tu Avatar</h2>
+
+  <div id="contenedorTarjetas" class="tarjetas">
+ 
+   
+  </div>
+
+   <button class="boton-de-seleccion" id="boton-Avatar">Seleccionar</button>
+</section>
+   
+<section id="ver-mapa">
+      <h2 class="Leyenda">LET THE BATTLE BEGIN🗡️</h2>
+      <canvas id="mapa"></canvas>
+      <button onmouseup="detenerMovimiento()" onmousedown="moverArriba()">▲</button>
+      
+      
+      <div class="botonesmapa">
+      
+      <button onmouseup="detenerMovimiento()" onmousedown="moverIzquierda()">◀︎</button>
+      <button onmouseup="detenerMovimiento()" onmousedown="moverAbajo()">▼</button>
+      <button onmouseup="detenerMovimiento()" onmousedown="moverDerecha()">▶︎</button>
+     
+      
+      </div>
+
+</section>
+   
+<section id="avatares-disponibles"
+
+    class="avatares-disponibles"> Rushuan - Abraxaz - Nautilus - Foresakis - Metilos - Ulsfark - Rajshiva - Romulus
+   
+</section>
+◀
+   <section id="Seleccionar-Ataque">
+   <h1 class="titulo">⚔️MASTERS OF THE ELEMENTS⚔️ </h1>
+   
+   <h2>Selecciona tu ataque</h2>
+
+   <div id= "contenedorAtaques" class="tarjetas-ataques"></div>
+    
+    
+   
+  
+   <div id="boton-fuego" ></div>
+   <div id="boton-agua"></div>
+   <div id="boton-tierra"></div>
+   <div id="boton-aire"></div>
+   
+
+
+</section>
+
+
+   
+   </div>
+   
+   <section>
+   
+   <div id="mensaje">
+   <section id="resultado">⚔️A LUCHAR🛡️</section>
+   
+   <section id ="reiniciar">
+   <button id ="boton-reiniciar">Nuevo Juego</button>   </section> 
+   </section>
+
+
+   </div>
+<section id="maniobras">
+   <section id="ataques-Masters" class="ataques-Masters">
+   
+  
+  
+  <section class="ataques-jugador">
+      <p id="vidas-jugador">0</p>
+      <p id="Avatar"></p>
+      <div id="ataques-del-jugador"></div> 
+  </section>
+
+  <section class="ataques-contrincante">
+      <p id="vidas-contrincante">0</p>
+      <p id="AvatarDelContrincante"></p>
+      <div id="ataque-del-contrincante"></div> 
+  </section>
+</section>
+      
+      </div>
+   </section>
+   
+   
+   </div>
+   </section>
+ 
+
+
+
+
+   <script src="js/MOE.js"></script>
+   
+</body>
+
+
+</html>
